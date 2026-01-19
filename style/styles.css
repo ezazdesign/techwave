@@ -45,7 +45,7 @@
 
 .common-p {
     font-size: 1rem;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 1);
     line-height: 20px;
     font-weight: 400;
 }
@@ -183,6 +183,53 @@ nav ul:hover {
     transform: translateY(-2px);
     box-shadow: 0 12px 28px rgba(145, 0, 248, 0.5);
 }
+/* Hero Section Style End */
+
+
+/* About the Podcast Section Styles */
+
+
+.podcast-section {
+    background-color: rgba(26, 11, 46, 1);
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.podcast-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.podcast-section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 58px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.podcast-p {
+    margin-bottom: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About the Podcast Section End*/
 
 
 
@@ -264,8 +311,49 @@ nav ul:hover {
     .hero-btn {
         margin-bottom: 40px;
     }
+    /* Hero Section Style End */
 
 
+    /* About the Podcast Section Styles */
+ 
+    
+    .podcast-section h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 39px;
+
+    }
+
+    .podcast-section p {
+        font-size: 16px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* About the Podcast Section End*/
 
 
 
