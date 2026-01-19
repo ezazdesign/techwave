@@ -102,6 +102,7 @@ nav ul:hover {
     background-position: center;
     background-repeat: no-repeat;
     height: 760px;
+    
 }
 
 .hero-content {
@@ -160,14 +161,14 @@ nav ul:hover {
 
 
 .hero-btn {
-    margin: 20px;
+    margin: 20px 0;
     gap: 15px;
     align-items: center;
     justify-self: center;
 }
 
 .btn-2 {
-    border: 2px solid #00FF88;
+    border: 1px solid #00FF88;
     background: transparent;
     color: #00FF88;
     padding: 13px 22px;
@@ -199,6 +200,7 @@ nav ul:hover {
 
 @media screen and (max-width:576px) {
 
+
     /* Nav Style */
 
     nav ul li, nav button{
@@ -214,6 +216,7 @@ nav ul:hover {
     }
 
     /* Hero Section Style */
+
     .hero-section {
         height: auto;
         background-position: center top;
@@ -224,20 +227,26 @@ nav ul:hover {
     .hero-img {
         width: 200px;
         height: 200px;
+        
     }
-
     
     .hero-img img:first-child {
         width: 100%;
     }
 
-    .hero-img img:last-child {
-        width: 50px;
+
+    .hero-img2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
     }
 
     .new {
         right: -15px;
     }
+
     .hero-text h2 {
         font-size: 2.5rem;
         line-height: 48px;
@@ -247,6 +256,18 @@ nav ul:hover {
        padding: 0 20px;
     }
 
- 
+    .common-btn , .btn-2{
+        padding: 12px 20px;
 
+    }
+
+    .hero-btn {
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+    
 }
