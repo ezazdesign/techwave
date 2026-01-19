@@ -81,3 +81,36 @@ nav ul:hover {
 .nav-container {
     border-bottom: 1px solid rgb(255, 255, 255);
 }
+
+.hamburger-img {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive layout Styles */
+
+@media screen and (max-width:576px) {
+
+    nav ul li, button{
+        display: none;
+    }
+
+    .hamburger-img {
+        display: block;
+    }
+    
+    .nav-container {
+        padding: 0 20px;
+    }
+}
