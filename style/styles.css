@@ -117,7 +117,6 @@ nav ul:hover {
     position: relative;
     width: 350px;
     height: 350px;
-    cursor: pointer;
 }
 
 .hero-img img {
@@ -136,7 +135,19 @@ nav ul:hover {
     z-index: 1;
 }
 
-
+.new {
+    background-color: #00FF88;
+    color: #1A0B2E;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 22px;
+    box-shadow: 0 3px 27px 0 rgba(0, 255, 136, 0.5);
+    position: absolute;
+    top: 0;
+    right: 35px;
+}
 
 .hero-text h2 {
     font-size: 3.75rem;
@@ -206,10 +217,11 @@ nav ul:hover {
     .hero-section {
         height: auto;
         background-position: center top;
+        background-size: 100% 100%;
         
     }
 
-     .hero-img {
+    .hero-img {
         width: 200px;
         height: 200px;
     }
@@ -223,6 +235,9 @@ nav ul:hover {
         width: 50px;
     }
 
+    .new {
+        right: -15px;
+    }
     .hero-text h2 {
         font-size: 2.5rem;
         line-height: 48px;
