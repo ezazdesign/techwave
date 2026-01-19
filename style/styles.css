@@ -1,0 +1,83 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Common Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-bg {
+    background-color: #1A0B2E;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.common-btn {
+    padding: 13px 22px;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 19px;
+    cursor: pointer;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+
+}
+
+.common-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(145, 0, 248, 0.5);
+}
+
+/* Nav Style */
+
+.logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.logo span {
+    background: linear-gradient(20deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+nav ul {
+    list-style: none;
+    gap: 32px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul:hover {
+    color: rgb(201, 230, 255);
+}
+
+.nav-container {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
