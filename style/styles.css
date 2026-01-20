@@ -201,7 +201,7 @@ nav ul:hover {
     text-align: center;
 }
 
-.podcast-section h2, .techWave-title {
+.podcast-section h2, .techWave-title, .featured-title {
     font-size: 3rem;
     font-weight: 700;
     line-height: 58px;
@@ -300,7 +300,78 @@ nav ul:hover {
     height: 273px;
 }
 
-/* Why Choose TechWave Styles Css End*/
+    /* Why Choose TechWave Styles Css End*/
+
+
+    /* Featured Episodes Section Style Css */
+
+.featured-section {
+    padding: 120px 0;
+}    
+
+.featured-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.video-card-item {
+    max-width: 380px;
+}
+
+.video-description {
+    padding: 24px;
+    background-color: #250D44;
+    border-radius: 0px 0px 24px 24px;
+    
+}
+
+.video-description h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.video-description p {
+    margin: 13px 0;
+
+}
+.time {
+    color: #00FF88;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 24px 24px 0px 0px;
+}
+
+
 
 
 
@@ -314,7 +385,7 @@ nav ul:hover {
 
 
 /* ------------------------------------ */
-/* responsive layout Styles */
+    /* responsive layout Styles */
 
 @media screen and (max-width:576px) {
 
@@ -448,6 +519,36 @@ nav ul:hover {
         padding-top: 40px;
         margin-bottom: 16px;
     }
+
+
+    /* Featured Episodes Section Style Css */
+
+    .video-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .video-card-item {
+        padding: 0 16px;
+    }
+
+    .featured-section {
+        padding: 40px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
