@@ -372,9 +372,59 @@ nav ul:hover {
 }
 
 
+    /* host-section css styles  */
+
+    .host-section-start {
+        padding-bottom: 120px;
+    }
+
+    .host-section {
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        background-color: rgba(53, 17, 101, 0.4);
+        border-radius: 40px;
+        padding: 40px;
+    }
+
+    .host-image{
+        width: 200px;
+        height: 200px;
+    }
+
+    .host-alex {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 39px;
+        color: rgba(255, 255, 255, 1);
+    }
 
 
+    .social-account {
+        cursor: pointer;
+        display: flex;
+        gap: 10px;
+        
+    }
 
+    .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid rgba(83, 60, 114, 1);
+    
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .host-description {
+        gap: 16px;
+        flex-direction: column;
+        flex: 1;
+    }
+
+/* host-section css styles End */
 
 
 
@@ -463,7 +513,9 @@ nav ul:hover {
         padding-bottom: 40px;
     }
 
-    .podcast-section h2, .techWave-title {
+    .podcast-section h2, 
+    .techWave-title, 
+    .featured-title {
         font-size: 2rem;
         font-weight: 700;
         line-height: 39px;
@@ -537,9 +589,19 @@ nav ul:hover {
         padding: 40px 0;
     }
 
+/* host-section css styles End */
 
+    .host-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        border-radius: 30px;
+        margin: 0 15px;
+    }
 
-
+    .social-account {
+        justify-content: center;
+    }
 
 
 
