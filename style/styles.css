@@ -426,12 +426,31 @@ nav ul:hover {
 
 /* host-section css styles End */
 
+/* footer section Css Style Start  */
 
+footer {
+    background-image: url(../assets/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 120px 0;
+}
 
+.footer-link {
+    gap: 40px;
 
+}
 
-
+.link-content {
+    gap: 8px;
+}
 
 
 /* ------------------------------------ */
@@ -456,7 +475,7 @@ nav ul:hover {
 
     /* Hero Section Style */
 
-    .hero-section {
+    .hero-section , footer {
         height: auto;
         background-position: center top;
         background-size: 100% 100%;
@@ -589,7 +608,7 @@ nav ul:hover {
         padding: 40px 0;
     }
 
-/* host-section css styles End */
+    /* host-section css styles End */
 
     .host-section {
         flex-direction: column;
@@ -605,8 +624,13 @@ nav ul:hover {
 
 
 
+    /* footer section style css */
 
-
+    .footer-link {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 
 
 
